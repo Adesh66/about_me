@@ -13,6 +13,7 @@
     }
 
     .caption-box {
+        max-width: 25%;
         padding-left: 20px;
 
         &__designation {
@@ -72,4 +73,21 @@
             }
         }
     }
+}
+
+.text-bg {
+    position: fixed;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-7%);
+    margin-left: 200px;
+    width: 10000px;
+    opacity: 0.07;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 230px;
+    font-weight: 800;
+    letter-spacing: 50px;
+    color: #969ca9;
+    z-index: -1;
+    text-align: left;
 }

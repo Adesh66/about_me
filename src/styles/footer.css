@@ -1,0 +1,82 @@
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  min-height: 50px;
+  background-color: #0b1521;
+  padding: 20px 0px;
+}
+
+.footer__title {
+  font-size: 50px;
+  color: #ffffff;
+  padding-left: 60px;
+}
+
+.footer .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  padding-right: 40px;
+}
+
+.footer .social__item {
+  list-style: none;
+  margin: 0px 5px;
+  font-size: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .social__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  background: #ffffff;
+  width: 30px;
+  height: 30px;
+  color: #ffffff;
+  border-radius: 50%;
+  font-size: 15px;
+}
+
+.footer .social__link--github {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.footer .social__link--facebook {
+  background-color: #3b5998;
+}
+
+.footer .social__link--linkedin {
+  background-color: #007bb5;
+}
+
+.footer .social__link--twitter {
+  background-color: #1da1f2;
+}
+/*# sourceMappingURL=footer.css.map */
