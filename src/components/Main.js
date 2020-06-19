@@ -13,13 +13,13 @@ function Main() {
           <span className='caption-box__title__bold'>Adesh</span> Kumar
         </div>
         <div className='caption-box__description'>
-          Fusce tempor magna mi, non egestas velit ultricies nec. Aenean
-          <br></br>
-          convallis, risus non condimentum gravida, odio mauris ullamcorper
-          <br></br>
-          felis, ut venenatis purus ex eu mi. Quisque imperdiet lacinia urna, a
-          <br></br>
-          placerat sapien pretium eu.
+          I'm a UI Engineer with 3 years of experience in UI development and
+          currently working with BOLD INDIA. I'm quite familar with developing
+          the core products and handling the larger applications. Prior to
+          joining BOLD, I have worked with iChamp India and Technohills Web. I
+          hold a Bachelor of Technology from Punjab Technical University, Punjab
+          India. When I am not busy solving a technology problem, I love cooking
+          and catching a movie.
         </div>
         <div className='action-btn'>
           <button
@@ -28,10 +28,16 @@ function Main() {
           >
             Download CV
           </button>
-          <button type='button' className='action-btn__home action-btn__home__contact'>
+          <button
+            type='button'
+            className='action-btn__home action-btn__home__contact'
+          >
             Contact
           </button>
         </div>
+      </div>
+      <div className='text-bg'>
+        <span>Adesh</span>
       </div>
     </div>
   );
