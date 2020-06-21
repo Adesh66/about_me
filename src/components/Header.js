@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Link } from 'react-router-dom';
 export class Header extends Component {
   render() {
     return (
+
       <header className='header'>
         <Link to="/" className='header-logo'>
           <span className='header-logo__break'>A</span>desh
@@ -42,6 +43,7 @@ export class Header extends Component {
           </li>
         </ul>
       </header>
+
     );
   }
 }

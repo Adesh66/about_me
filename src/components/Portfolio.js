@@ -1,5 +1,6 @@
 import React from 'react';
 import project from '../assets/projects/1.jpg';
+
 function Portfolio() {
   return (
     <div className='portfolio'>
@@ -38,6 +39,7 @@ function Portfolio() {
           </div>
           <div className='project__title'>Livecareer</div>
           <a href='goo' target='_blank' className='project__url'>
+
             <i className='fa fa-globe'></i>
           </a>
         </div>
