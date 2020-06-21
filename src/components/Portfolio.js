@@ -1,6 +1,6 @@
 import React from 'react';
 import project from '../assets/projects/1.jpg';
-import '../styles/portfolio.scss';
+
 function Portfolio() {
   return (
     <div className='portfolio'>
@@ -12,7 +12,7 @@ function Portfolio() {
           </div>
           <div className='project__title'>iChamp India</div>
           <a href='google' target='_blank' className='project__url'>
-            <i className='fa fa-address-book'></i>
+            <i className='fa fa-globe'></i>
           </a>
         </div>
         <div className='project__list'>
@@ -21,7 +21,7 @@ function Portfolio() {
           </div>
           <div className='project__title'>Livecareer</div>
           <a href='goo' target='_blank' className='project__url'>
-            <i className='fa fa-address-book'></i>
+            <i className='fa fa-globe'></i>
           </a>
         </div>
         <div className='project__list'>
@@ -30,7 +30,7 @@ function Portfolio() {
           </div>
           <div className='project__title'>Livecareer</div>
           <a href='goo' target='_blank' className='project__url'>
-            <i className='fa fa-address-book'></i>
+            <i className='fa fa-globe'></i>
           </a>
         </div>
         <div className='project__list'>
@@ -39,7 +39,8 @@ function Portfolio() {
           </div>
           <div className='project__title'>Livecareer</div>
           <a href='goo' target='_blank' className='project__url'>
-            <i className='fa fa-address-book'></i>
+
+            <i className='fa fa-globe'></i>
           </a>
         </div>
       </div>

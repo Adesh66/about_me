@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/banner.scss';
+
 import logo from '../assets/admin.jpg';
 import MyPDF from '../assets/cv.pdf';
 import { Link } from 'react-router-dom';

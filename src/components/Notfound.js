@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/notfound.scss';
+
 import { Link } from 'react-router-dom';
 import Lottie from 'react-lottie';
 import * as animationData from '../assets/JSON/notfound.json';

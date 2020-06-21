@@ -1,0 +1,95 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+
+    &__fig {
+        img {
+            border-radius: 50%;
+            border: 13px solid #fff;
+            box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, .1);
+        }
+    }
+
+    .caption-box {
+        max-width: 25%;
+        padding-left: 20px;
+
+        &__designation {
+            font-size: 13px;
+            color: #8d8d8d;
+        }
+
+        &__title {
+            font-size: 42px;
+            line-height: 56px;
+            font-weight: 600;
+            letter-spacing: -2px;
+            color: $main-color;
+        }
+
+        &__title__bold {
+            font-weight: 300;
+        }
+
+        &__description {
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: 0.2px;
+        }
+    }
+
+    .action-btn {
+        margin-top: 20px;
+
+        &__home {
+            padding: 10px 20px;
+            border-radius: 22px;
+            margin-right: 10px;
+            font-size: 12px;
+            letter-spacing: 0.6px;
+            background: transparent;
+            border: 1px solid #dadada;
+            cursor: pointer;
+            transition: 0.2s all ease-in-out;
+            box-shadow: 0px 10px 10px -8px #d5d5d5;
+            color: $main-color;
+            text-decoration: none;
+        }
+
+        &__home__download {
+            border: 1px solid $main-color;
+
+            &:hover {
+                background: $main-color;
+                color: #fff;
+            }
+        }
+
+        &__home__contact {
+
+            &:hover {
+                background: #dadada;
+                color: $main-color;
+            }
+        }
+    }
+}
+
+.text-bg {
+    position: fixed;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-7%);
+    margin-left: 200px;
+    width: 10000px;
+    opacity: 0.07;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 230px;
+    font-weight: 800;
+    letter-spacing: 50px;
+    color: #969ca9;
+    z-index: -1;
+    text-align: left;
+}
