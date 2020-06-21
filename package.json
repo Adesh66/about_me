@@ -16,7 +16,7 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "aboutme-css": "node-sass --output-style compressed stylessheet/main.scss  public/main.css --source-map true",
+    "sass": "node-sass --output-style compressed stylessheet/main.scss  public/main.css -w --source-map true",
     "start": "react-scripts start ",
     "build": "react-scripts build",
     "test": "react-scripts test",

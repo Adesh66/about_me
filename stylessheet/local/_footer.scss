@@ -12,6 +12,11 @@
         color: #ffffff;
         padding-left: 60px;
         text-decoration: none;
+
+        @media only screen and (max-width: 767px) {
+            padding-left: 20px;
+
+        }
     }
 
     .social {
@@ -19,6 +24,10 @@
         margin: 0;
         padding: 0;
         padding-right: 40px;
+
+        @media only screen and (max-width: 767px) {
+            padding-right: 20px;
+        }
 
         &__item {
             list-style: none;

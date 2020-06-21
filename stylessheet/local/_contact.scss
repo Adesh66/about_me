@@ -9,15 +9,26 @@
         flex-direction: column;
         color: #ffffff;
 
+        @media only screen and (max-width: 767px) {
+            padding: 10px 20px;
+        }
+
+
         &__title {
             font-size: 40px;
-            font-weight: bold;
+
+            @media only screen and (max-width: 767px) {
+                font-size: 30px;
+            }
         }
 
         &__subtitle {
             font-size: 15px;
-            font-weight: 300;
             width: 50%;
+
+            @media only screen and (max-width: 767px) {
+                width: 100%;
+            }
         }
 
         &__msgbtn {
@@ -37,6 +48,12 @@
         grid-gap: 20px;
         padding: 4rem 3rem;
 
+        @media only screen and (max-width: 767px) {
+            grid-template-columns: 1fr;
+            grid-gap: 20px;
+            padding: 1rem 1rem;
+        }
+
         &__card {
             position: relative;
             display: flex;
@@ -54,6 +71,10 @@
             cursor: pointer;
             text-decoration: none;
             color: $main-color;
+
+            @media only screen and (max-width: 767px) {
+                margin-bottom: 0px;
+            }
 
             &:hover {
                 transform: translateY(-10px);
