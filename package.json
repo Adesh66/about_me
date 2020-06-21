@@ -12,7 +12,8 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "aboutme-css": "node-sass --output-style compressed stylessheet/main.scss  public/main.css --source-map true",
+    "start": "react-scripts start ",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -31,5 +32,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
   }
 }
