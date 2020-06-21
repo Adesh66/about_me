@@ -1,7 +1,10 @@
 import React from 'react';
 import '../styles/banner.scss';
 import logo from '../assets/admin.jpg';
-function Main() {
+import MyPDF from '../assets/cv.pdf';
+import { Link } from 'react-router-dom';
+
+function Intro() {
   return (
     <div className='banner'>
       <div className='banner__fig'>
@@ -15,25 +18,22 @@ function Main() {
         <div className='caption-box__description'>
           I'm a UI Engineer with 3 years of experience in UI development and
           currently working with BOLD INDIA. I'm quite familar with developing
-          the core products and handling the larger applications. Prior to
-          joining BOLD, I have worked with iChamp India and Technohills Web. I
-          hold a Bachelor of Technology from Punjab Technical University, Punjab
-          India. When I am not busy solving a technology problem, I love cooking
-          and catching a movie.
+          the core products and handling the larger applications. When I am not
+          busy solving a technology problem, I love cooking and catching a
+          movie.
         </div>
         <div className='action-btn'>
-          <button
-            type='button'
+          <Link
+            to={MyPDF}
+            target='_blank'
             className='action-btn__home action-btn__home__download'
+            download
           >
             Download CV
-          </button>
-          <button
-            type='button'
-            className='action-btn__home action-btn__home__contact'
-          >
+          </Link>
+          <Link to="/contact" className='action-btn__home action-btn__home__contact'>
             Contact
-          </button>
+          </Link>
         </div>
       </div>
       <div className='text-bg'>
@@ -43,4 +43,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default Intro;

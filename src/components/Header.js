@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import '../styles/header.scss';
-import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 export class Header extends Component {
   render() {
     return (
-      <Router>
         <header className='header'>
           <div className='header-logo'>
             <span className='header-logo__break'>A</span>desh
@@ -23,7 +22,7 @@ export class Header extends Component {
               </Link>
             </li>
             <li className='menu-list__item'>
-              <Link className='menu-list__item__links' to='/service'>
+              <Link className='menu-list__item__links' to='/resume'>
                 Resume
               </Link>
             </li>
@@ -32,11 +31,11 @@ export class Header extends Component {
                 Portfolio
               </Link>
             </li>
-            <li className='menu-list__item'>
+            {/* <li className='menu-list__item'>
               <Link className='menu-list__item__links' to='/blog'>
                 Blog
               </Link>
-            </li>
+            </li> */}
             <li className='menu-list__item menu-list__item--button'>
               <Link className='menu-list__item__links' to='/contact'>
                 Contact
@@ -44,7 +43,6 @@ export class Header extends Component {
             </li>
           </ul>
         </header>
-      </Router>
     );
   }
 }

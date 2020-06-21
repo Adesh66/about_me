@@ -20,20 +20,19 @@
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 20px;
   padding: 20px;
 }
 
 .portfolio .project__list {
   overflow: hidden;
-  margin: 8px;
   border-radius: 12px;
   position: relative;
 }
 
-.portfolio .project:hover .portfolio .project__image {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+.portfolio .project__list:hover .portfolio .project__list__image {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .portfolio .project__fig {
@@ -41,12 +40,10 @@
   overflow: hidden;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
   border-radius: 8px;
 }
 
-.portfolio .project__image {
+.portfolio .project__list__image {
   position: relative;
   display: block;
   width: 100%;

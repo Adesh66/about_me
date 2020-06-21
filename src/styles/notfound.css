@@ -1,0 +1,29 @@
+.notfound {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 73vh;
+}
+
+.notfound .notfound-details__title {
+  font-size: 10rem;
+  font-weight: bold;
+  color: #0b1521;
+}
+
+.notfound .notfound-details__descp {
+  font-size: 13px;
+  color: #0b1521;
+}
+
+.notfound__icon {
+  font-size: 10rem;
+  color: #ececec;
+}
+/*# sourceMappingURL=notfound.css.map */
