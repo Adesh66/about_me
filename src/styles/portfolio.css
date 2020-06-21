@@ -1,0 +1,92 @@
+.portfolio__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #ececec;
+  min-height: 100px;
+  padding: 10px 50px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.portfolio .project {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.portfolio .project__list {
+  overflow: hidden;
+  border-radius: 12px;
+  position: relative;
+}
+
+.portfolio .project__list:hover .portfolio .project__list__image {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.portfolio .project__fig {
+  position: relative;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border-radius: 8px;
+}
+
+.portfolio .project__list__image {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.portfolio .project__title {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 13px;
+  border-radius: 5px;
+  font-size: 13px;
+  background: #0b1521;
+  color: #ffffff;
+}
+
+.portfolio .project__url {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: #0b1521;
+  width: 35px;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 13px;
+}
+/*# sourceMappingURL=portfolio.css.map */
