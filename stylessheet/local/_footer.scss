@@ -1,20 +1,25 @@
 .footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 100%;
     min-height: 50px;
     background-color: $main-color;
-    padding: 20px 0px;
+    padding: 10px 0px;
+
+    .inner-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+    }
 
     &__title {
         font-size: 50px;
         color: #ffffff;
-        padding-left: 60px;
         text-decoration: none;
 
         @media only screen and (max-width: 767px) {
-            padding-left: 20px;
+            padding-left: 0px;
+            font-size: 40px;
 
         }
     }
@@ -23,10 +28,9 @@
         display: flex;
         margin: 0;
         padding: 0;
-        padding-right: 40px;
 
         @media only screen and (max-width: 767px) {
-            padding-right: 20px;
+            padding-right: 0px;
         }
 
         &__item {
