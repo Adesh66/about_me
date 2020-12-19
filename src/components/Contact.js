@@ -37,7 +37,7 @@ function Contact() {
             adeshgangwar1996@gmail.com
           </div>
         </a>
-        <a href="whatsapp://send?phone=8979988766&text=Hi..!" className='contact-options__card'>
+        <a href="https://api.whatsapp.com/send?phone=918979988766&amp;text=Hi" className='contact-options__card'>
           <div className='contact-options__icon'>
             <i className='fa fa-whatsapp'></i>
           </div>

@@ -13,6 +13,7 @@ function App() {
         <Header />
         <Switch>
           <Route path='/' exact component={Intro} />
+          <Route path='/about_me' exact component={Intro} />
           <Route path='/portfolio' component={Portfolio} />
           {/* <Route path='/about' component={About} /> */}
           <Route path='/contact' component={Contact} />
