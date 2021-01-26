@@ -45,11 +45,11 @@ export class Header extends Component {
                       About Me
                     </Link>
                   </li>
-                  <li className="menu-list__item">
+                  {/* <li className="menu-list__item">
                     <Link className="menu-list__item__links" to="/resume">
                       Resume
                     </Link>
-                  </li>
+                  </li> */}
                   <li className="menu-list__item">
                     <Link className="menu-list__item__links" to="/portfolio">
                       Portfolio

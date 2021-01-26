@@ -30,7 +30,7 @@
             overflow: hidden;
             border-radius: 12px;
             position: relative;
-
+            max-height: 28rem;
             &:hover & {
                 &__image {
                     transform: scale(1.1);
