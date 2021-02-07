@@ -19,7 +19,7 @@ function Intro() {
               <span className="caption-box__title__bold">Adesh</span> Kumar
             </div>
             <div className="caption-box__description">
-              I'm a UI Engineer with 3.6 years of experience in UI development
+              Hi, I'm a UI Engineer with 3.8+ years of experience in UI development
               and currently working with{" "}
               <a href="https://www.bold.com/" target="_blank" style={{color: '#f8991d'}}>
                 BOLD

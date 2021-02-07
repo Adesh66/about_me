@@ -1,6 +1,7 @@
 import React from 'react';
-import project from '../assets/projects/1.jpg';
-import project2 from '../assets/projects/ichamp.jpg';
+import ichamp from '../assets/projects/ichamp.jpg';
+import lc from '../assets/projects/lc.jpg';
+import cfg from '../assets/projects/cfg.jpg';
 
 function Portfolio() {
   return (
@@ -9,38 +10,28 @@ function Portfolio() {
       <div className='project'>
         <div className='project__list'>
           <div className='project__fig'>
-            <img src={project2} alt='project_theme' className='project__list__image' />
+            <img src={ichamp} alt='project_theme' className='project__list__image' style={{filter: "brightness(0.35)"}} />
           </div>
           <div className='project__title'>iChamp India</div>
-          <a href='google' target='_blank' className='project__url'>
+          <a href='https://www.ichamp.in' target='_blank' className='project__url'>
             <i className='fa fa-globe'></i>
           </a>
         </div>
         <div className='project__list'>
           <div className='project__fig'>
-            <img src={project} alt='project_theme' className='project__list__image' />
+            <img src={lc} alt='project_theme' className='project__list__image' style={{filter: "brightness(0.35)"}} />
           </div>
           <div className='project__title'>Livecareer</div>
-          <a href='goo' target='_blank' className='project__url'>
+          <a href='http://www.livecareer.co.uk/' target='_blank' className='project__url'>
             <i className='fa fa-globe'></i>
           </a>
         </div>
         <div className='project__list'>
           <div className='project__fig'>
-            <img src={project} alt='project_theme' className='project__list__image' />
+            <img src={cfg} alt='project_theme' className='project__list__image' style={{filter: "brightness(0.35)"}} />
           </div>
-          <div className='project__title'>Livecareer</div>
-          <a href='goo' target='_blank' className='project__url'>
-            <i className='fa fa-globe'></i>
-          </a>
-        </div>
-        <div className='project__list'>
-          <div className='project__fig'>
-            <img src={project} alt='project_theme' className='project__list__image' />
-          </div>
-          <div className='project__title'>Livecareer</div>
-          <a href='goo' target='_blank' className='project__url'>
-
+          <div className='project__title'>Carfinancegiant</div>
+          <a href='https://carfinancegiant.co.uk' target='_blank' className='project__url'>
             <i className='fa fa-globe'></i>
           </a>
         </div>
