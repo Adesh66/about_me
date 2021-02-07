@@ -14,7 +14,7 @@ function Intro() {
             <img src={logo} alt="my_profile_picture" />
           </div>
           <div className="caption-box">
-            <div className="caption-box__designation">UI Engineer</div>
+            <h1 className="caption-box__designation" style={{margin: 0}}>UI Engineer</h1>
             <div className="caption-box__title">
               <span className="caption-box__title__bold">Adesh</span> Kumar
             </div>

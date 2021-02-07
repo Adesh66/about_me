@@ -244,6 +244,7 @@ body {
 .banner .caption-box__designation {
   font-size: 13px;
   color: #8d8d8d;
+  margin: 0;
 }
 
 .banner .caption-box__title {
