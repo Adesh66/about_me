@@ -330,6 +330,10 @@ body {
   color: #969ca9;
   z-index: -1;
   text-align: left;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 @media only screen and (max-width: 767px) {

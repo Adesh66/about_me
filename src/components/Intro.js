@@ -1,7 +1,7 @@
 import React from "react";
 
 import logo from "../assets/admin.jpg";
-import MyPDF from "../assets/cv.pdf";
+import MyPDF from "../assets/Adesh_CV.PDF";
 import { Link } from "react-router-dom";
 
 function Intro() {
