@@ -16,7 +16,7 @@ function Notfound() {
         <div className='notfound-details__descp'>
           Page Does not exist. You probably entered the wrong URL or something.
         </div>
-        <Link className='notfound-details__goback' to={"/about_me"}>Go Home</Link>
+        <Link className='notfound-details__goback' to={"/about"}>Go Home</Link>
       </div>
       <div className='notfound__icon'>
         <Lottie options={defaultOptions} height={200} width={200} />

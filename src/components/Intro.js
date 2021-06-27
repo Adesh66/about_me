@@ -3,26 +3,18 @@ import React from "react";
 import logo from "../assets/admin.jpg";
 import MyPDF from "../assets/Adesh_CV.PDF";
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
 
 function Intro() {
-  let keyDownHandler = (evt) => {
-    if (evt.key === "VolumeDown") {
-      alert("VolumeDown");
-    } else if (evt.key === "VolumeUp") {
-      alert("VolumeUp");
-    }
-    evt.preventDefault(); // to stop system app from processing keydown event
-  };
+  function getTotalExpr() {
+    const starting = new Date(2017, 5, 15);
+    const todate = new Date();
+    let months = (todate.getFullYear() - starting.getFullYear()) * 12;
+    months -= starting.getMonth();
+    months += todate.getMonth();
+    console.log(months);
+    return (months / 12).toFixed(1);
+  }
 
-  useEffect(() => {
-    if (window) {
-      window.addEventListener("keydown", keyDownHandler);
-    }
-    return () => {
-      window.removeEventListener("keydown", keyDownHandler);
-    };
-  }, []);
   return (
     <div className="main">
       <div className="container">
@@ -39,8 +31,8 @@ function Intro() {
               <span className="caption-box__title__bold">Adesh</span> Kumar
             </div>
             <div className="caption-box__description">
-              Hi, I'm a UI Engineer with 3.8+ years of experience in UI
-              development and currently working with{" "}
+              Hi, I'm a UI Engineer with {getTotalExpr()}+ years of experience
+              in UI development and currently working with{" "}
               <a
                 href="https://www.bold.com/"
                 target="_blank"
